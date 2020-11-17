@@ -1,0 +1,10 @@
+{
+  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {},
+  "ignorePatterns": ["dist/**/*"]
+}
