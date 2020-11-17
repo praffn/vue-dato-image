@@ -18,22 +18,6 @@
         :style="{ width: '100%' }"
       />
     </picture>
-    <component :is="'noscript'">
-      <picture :style="pictureStyle">
-        <source
-          v-if="data.webpSrcSet"
-          :srcset="data.webpSrcSet"
-          :sizes="data.sizes"
-        />
-        <source v-if="data.srcSet" :srcset="data.srcSet" :sizes="data.sizes" />
-        <img
-          v-if="data.src"
-          :src="data.src"
-          :alt="data.alt"
-          :title="data.title"
-        />
-      </picture>
-    </component>
   </div>
 </template>
 
