@@ -1,6 +1,6 @@
 {
   "name": "@praffn/vue-dato-image",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "main": "./dist/dato-image.ssr.js",
   "module": "./dist/dato-image.esm.js",
